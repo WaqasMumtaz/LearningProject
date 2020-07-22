@@ -40,4 +40,4 @@ jobs:
       
     # Runs Deploy Surge
     - name: Deploy to Surge
-      run:  surge ./ someawsomeurl.surge.sh/ --token ${{secrets.TOKEN}}
+      run:  surge ./demo-surge.surge.sh/ --token ${{secrets.TOKEN}}
